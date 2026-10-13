@@ -1,0 +1,69 @@
+{
+  "name": "奇诡音形测试第一版",
+  "source_version": "v3.0",
+  "source_commit": "4a3c126341dfbe134146329a1c327cfff1580b50",
+  "source_repository": "https://github.com/losWater/Nightingale",
+  "sources": [
+    {
+      "path": "work/夜莺3.0/release/tables/夜莺3.0_NB46_普通单字表.txt",
+      "sha": "0a720d3f21ebdcdf265aea9ed7586d7ca812db4d"
+    },
+    {
+      "path": "work/夜莺3.0/data/baseline/splits.json",
+      "sha": "e048658e55a0fc99d2d9d47b0f29ce138dcfeed7"
+    },
+    {
+      "path": "work/夜莺3.0/data/inputs/夜桜字音基准.json",
+      "sha": "6d55c59b006173018a9f8a60a0d3607f2704f347"
+    },
+    {
+      "path": "work/夜莺3.0/data/inputs/3.0一二简.json",
+      "sha": "a2f5d4b7bc98b26378c11f749bc9a60397a7010c"
+    },
+    {
+      "path": "work/夜莺3.0/data/inputs/当量表.tsv",
+      "sha": "28276102a2a482da9761aeaab4c8b293d52de7ec"
+    },
+    {
+      "path": "work/夜莺3.0/data/inputs/虎码词库_字词避重6万词.json",
+      "sha": "d716c7273a7c34db15302e0dba0be4bc0b345c70"
+    }
+  ],
+  "characters": 15496,
+  "reading_entries": 15844,
+  "code_table_rows": 20275,
+  "root_forms": 374,
+  "original_groups": 129,
+  "preserved_groups": 126,
+  "split_groups": 3,
+  "layout_units": 132,
+  "changed_layout_units": 90,
+  "same_key_units": 42,
+  "changed_root_forms": 288,
+  "same_key_root_forms": 86,
+  "abx_families": 6071,
+  "largest_family": 15,
+  "full_duplicate_groups": 0,
+  "metrics": {
+    "actual23": 1.3015189811675856,
+    "actual34": 1.097436598289249,
+    "shape_cost": 3.907006785835916,
+    "four_frequency": 29559.20029785001,
+    "four_tier1500": 105,
+    "collision_1500_10k": 0,
+    "collision_1500_30k": 0,
+    "collision_3500_10k": 0,
+    "all_fixed_word_required_collision": 2753
+  },
+  "baseline30_metrics": {
+    "actual23": 1.3015674708036846,
+    "actual34": 1.3550289749767572,
+    "shape_cost": 3.924033624338185,
+    "four_frequency": 33721.32395682001,
+    "four_tier1500": 122,
+    "collision_1500_10k": 0,
+    "collision_1500_30k": 1,
+    "collision_3500_10k": 4,
+    "all_fixed_word_required_collision": 2367
+  }
+}
